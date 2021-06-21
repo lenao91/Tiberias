@@ -1,0 +1,100 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	background-image: url(images/sand-2005066_1280.jpg);
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+header {
+	font-weight: bold;
+	font-size: 25px;
+	background-color: black;
+	color: beige;
+	text-align: left;
+}
+
+p {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+p, h2 {
+	font-family: 'Benne', serif;
+
+}
+/*
+img {
+	height: 195px;
+	margin: 5px;
+	border: 2px solid #385e70;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+*/
+iframe {
+	width: 70%;
+	height: 70%;
+}
+
+footer {
+	padding: 3px;
+	background-color: black;
+	color: beige;
+	margin-top: 30px;
+}
+
+div {
+	margin: 20px;
+}
+
+.kinneret {
+	border: 5px solid grey;
+	max-width: 80%;
+}
+
+.birdscontainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.birds {
+	height: 195px;
+	margin: 5px;
+	border: 2px solid #385e70;
+	transition: all 1s;
+}
+
+.birds:hover {
+	transform: scale(1.1);
+}
+
+.lena {
+	color: purple;
+	font-size: 30px;
+}
+
+.orangelink {
+	color: darkorange;
+}
+
+.me {
+	height: 300px;
+}
+
+.push, .footer {
+	height: 50px;
+}
